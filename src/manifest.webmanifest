@@ -1,0 +1,21 @@
+{
+    "short_name": "",
+    "name": "",
+    "description": "",
+    "start_url": "/index.html",
+
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+
+    "icons": [
+      {
+        "src": "images/example-150wx150h.png",
+        "sizes": "150x150",
+        "type": "image/png"
+      }
+    ]
+  }

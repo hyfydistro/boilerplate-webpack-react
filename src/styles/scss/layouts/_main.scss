@@ -1,0 +1,20 @@
+$breakpoints: (
+    SML: 480px,
+    MED: 768px,
+    LGE: 1280px
+);
+
+@mixin mq($key) {
+    $size: map.get($breakpoints, $key);
+
+    @media (min-width: $size) {
+        @content;
+    }
+}
+
+//  EXAMPLE
+body {
+    @include mq($SML) {
+        padding: 2em;
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "app",
+  "author": {
+    "name": "hyfydistro",
+    "email": "hyfydistro@outlook.com",
+    "url": "https://hyfydistro.github.io/carolinerozali.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyfydistro/app"
+  },
+  "contributors": [],
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "website",
+    "software development"
+  ],
+  "private": "false",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "dev": "webpack serve",
+    "build-dev": "webpack",
+    "build": "set NODE_ENV=production&&webpack",
+    "test": "jest",
+    "test:result": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0",
+    "npm": "6.14.8"
+  },
+  "homepage": "https://github.com/owner/app#readme",
+  "bugs": "https://github.com/hyfydistro/app/iisues",
+  "license": "MIT"
+}
